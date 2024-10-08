@@ -1,0 +1,7 @@
+BD_HOST=db
+BD_PASSWORD=demo123456
+BD_USER=demotest
+BD_DATABASE=inventory
+BD_PORT=5432
+BD_SSL='false'
+PORT=5000
