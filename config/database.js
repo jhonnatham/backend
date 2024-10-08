@@ -2,7 +2,7 @@ const { Client } = require('pg')
 
 require('dotenv').config()
 
-const configssl = process.env.BD_SSL = 'false' ? false: true
+const configssl = process.env.BD_SSL == 'false' ? false: true
 const connectionData = {
     user: process.env.BD_USER,
     host: process.env.BD_HOST,
